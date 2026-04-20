@@ -1,4 +1,4 @@
-# 🔐 Ubuntu Server Security Project
+# Ubuntu Server Security Project
 
 ## Overview
 This project shows the difference between an insecure and a secure Ubuntu server running in a virtual machine.  
@@ -6,14 +6,14 @@ It was created to practice basic Linux security and system hardening.
 
 ---
 
-## 🖥️ Environment
+## Environment
 - Ubuntu Server (VM)
 - VirtualBox / VMware
 - SSH access
 
 ---
 
-## ⚠️ Insecure Server
+## Insecure Server
 The insecure version contains common security weaknesses:
 - SSH root login enabled
 - Password authentication allowed
@@ -22,7 +22,7 @@ The insecure version contains common security weaknesses:
 
 ---
 
-## 🔐 Secure Server
+## Secure Server
 The secure version was hardened using basic security steps:
 - Disabled SSH root login
 - Enabled SSH key authentication
@@ -33,12 +33,12 @@ The secure version was hardened using basic security steps:
 
 ---
 
-## 📌 Key Learning
+## Key Learning
 Basic Linux hardening can significantly reduce security risks.
 Importance of the principle of least privilege
 Gained hands-on experience using a Linux terminal
 ---
 
-## 📁 Project Structure
+## Project Structure
 - `insecure-phase/`
 - `secure-phase/`
