@@ -1,10 +1,3 @@
-# Insecure Phase – Linux Server Security Project
-
-## Overview
-This phase documents a deliberately insecure configuration of an Ubuntu Server VM running in Oracle VirtualBox. The purpose is to demonstrate common security weaknesses and attack surface exposure in a misconfigured Linux environment.
-
----
-
 ## 1. SSH Configuration
 
 SSH service is enabled and listening on port 22.
@@ -13,7 +6,7 @@ SSH service is enabled and listening on port 22.
 - SSH is active and running
 - Port 22 is open on all interfaces (0.0.0.0)
 - Password authentication is enabled
-- Root login is allowed (`PermitRootLogin without-password` / `yes` depending on configuration)
+- Root login is allowed (`PermitRootLogin yes`)
 
 ### Risk:
 - Open SSH access allows remote login attempts
